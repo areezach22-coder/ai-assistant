@@ -801,7 +801,6 @@ if analyze_button:
             st.exception(
                 exc
             )
-```
 
 ### Ab ek aur important change
 
@@ -809,12 +808,11 @@ Tumhari `requirements.txt` mein **old Google package nahi hona chahiye**.
 
 Usmein ye hona chahiye:
 
-```text
+text
 streamlit
 google-genai
 pypdf
 python-docx
-```
 
 `google-generativeai` agar requirements mein hai to **remove** kar do. Google ka current SDK `google-genai` hai.
 
